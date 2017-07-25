@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+font-family: LIGHT-OF-THE-MERMAID;
+src: url(../fonts/LIGHT-OF-THE-MERMAID.ttf);
+}
+
+.form{
+    margin-top: -60px;
+    height: 450px;
+    width: 100%;
+    margin-left: 37px;
+}
+
+.container{
+    height: 34px;
+    width: 86%;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: black;
+    display: inline-block;
+}
+
+.titulo{
+    font-family: "LIGHT-OF-THE-MERMAID";
+    font-size: 28px;
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    color: #787878;
+}
+
+.principal{
+    font-family: "LIGHT-OF-THE-MERMAID";
+    font-size: 82px;
+    margin-top: 20px;
+    text-shadow: 5px 5px 5px #aaa;
+}
+
+.contprincipal{
+    width: 100%;
+    height: 109px;
+    margin-bottom: 91px;
+    text-align: center;
+}
+
+.backbutton{
+    width: 100%;
+    height: 46px;
+    margin-top: 10px;
+}
+
+.backtext{
+    font-family: "LIGHT-OF-THE-MERMAID";
+    font-size: 32px;
+    display: inline-block;
+    color: #787878;
+    width: 6%;
+}
+
+.back{
+    width: 52px;
+    height: 42px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.backtext:hover{
+    text-shadow: 5px 5px 5px #aaa;
+}
+
+.contenido{
+    font-family: "LIGHT-OF-THE-MERMAID";
+    font-size: 32px;
+    display: inline-block;
+    color: #787878;
+    width: 80%;
+}
+
+.correo{
+    font-family: "LIGHT-OF-THE-MERMAID";
+    font-size: 32px;
+    display: inline-block;
+    color: #0066ff;
+    width: 80%;
+    text-decoration: underline;
+}

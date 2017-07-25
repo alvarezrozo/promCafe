@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+font-family: LIGHT-OF-THE-MERMAID;
+src: url(../fonts/LIGHT-OF-THE-MERMAID.ttf);
+}
+
+body{
+    background: url(../img/background.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+input{
+	position: relative;
+}
+
+.form{
+    z-index: 2;
+    margin: 0px auto;
+    margin-top: 10%;
+    height: 80%;
+    width: 83%;
+}
+
+.icono{
+
+	width: 8%;
+    height: 11%;
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.container{
+
+	width: 83%;
+    height: 36px;
+    margin-top: 7%;
+    display: inline-block;
+    border-width: 0px;
+    margin-left: 24px;
+    border-color: black;
+    border-radius: 12px;
+}
+
+.reg {
+    margin-left: 12%;
+    font-family: "LIGHT-OF-THE-MERMAID";
+    display: inline-block;
+    padding-top: 3%;
+    font-size: 25px;
+    color: white;
+    text-shadow: 5px 5px 5px #aaa;
+    text-decoration: underline;
+}
+
+.buttons{
+    z-index: 3;
+    height: 7%;
+    width: 93%;
+}
+
+.intro{
+	
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    font-family: "LIGHT-OF-THE-MERMAID";
+    font-size: 110%;
+    color: white;
+    border-width: 6px;
+    border-color: white;
+    border-radius: 12px;
+    border-width: 0px;
+    width: 54px;
+    height: 52px;
+    cursor:pointer;
+}
+
+
+@media only screen and (max-width: 1130px) {
+    .buttons {
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .reg {
+        margin-left: 16%;
+    }
+    .buttons {
+        width: 97%;
+        margin-top: 15px;
+    }
+    .form {
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .intro {
+        margin-top: 0px;
+    }
+    .buttons {
+        width: 99%;
+    }
+    .form {
+        margin-top: 30%;
+    }
+}
+
+@media only screen and (max-width: 456px) {
+    .container {
+        width: 80%;
+    }
+    .icono {
+        width: 8%;
+        margin-left: 0px;
+    }
+    .intro {
+        width: 43px;
+        height: 42px;
+    }
+    .reg {
+        margin-left: 20%;
+    }
+    .buttons {
+        width: 97%;
+    }
+}

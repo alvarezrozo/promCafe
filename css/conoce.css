@@ -1,0 +1,129 @@
+@font-face {
+	font-family: LIGHT-OF-THE-MERMAID;
+	src: url(../fonts/LIGHT-OF-THE-MERMAID.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+    font-family: "LIGHT-OF-THE-MERMAID";
+}
+
+.salir {
+    font-family: "LIGHT-OF-THE-MERMAID";
+    display: inline-block;
+    font-size: 25px;
+    color: #737373;
+    text-decoration: none;
+}
+.con{
+    margin-top: -97px;
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 30PX;
+    margin-bottom: 10PX;
+}
+label{
+    font-size: 20px;
+    color: #565656;
+}
+.opc{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    width: 49%;
+}
+.resp{
+    margin-top: 10px;
+    border-top: 5px solid #737373;
+    padding: 20px;
+} 
+.info{
+    text-align: center;
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.info img{
+    max-width: 100%;
+} 
+.info h4,h5,h6{
+    margin-bottom: 20px;
+    color: #565656;
+}
+#mejor{
+    font-size:40px;
+    margin-bottom:15px;
+}
+.info h4{
+    font-size: 40px;
+}
+.info h5{
+    font-size: 30px;
+}
+.info h6{
+    font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 25PX;
+    }
+    label{
+        font-size: 18px;
+    }
+    .info h4{
+        font-size: 25px;
+    }
+    .info h5{
+        font-size: 20px;
+    }
+    .info h6{
+        font-size: 17px;
+    }
+}
+
+.backbutton{
+    width: 100%;
+    height: 46px;
+    margin-top: 10px;
+}
+
+.backtext{
+    font-family: "LIGHT-OF-THE-MERMAID";
+    font-size: 32px;
+    display: inline-block;
+    color: #787878;
+    width: 6%;
+}
+
+.back{
+    width: 52px;
+    height: 42px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.backtext:hover{
+    text-shadow: 5px 5px 5px #aaa;
+}
+
+.principal{
+    font-family: "LIGHT-OF-THE-MERMAID";
+    font-size: 82px;
+    margin-top: 20px;
+    text-shadow: 5px 5px 5px #aaa;
+}
+
+.contprincipal{
+    width: 100%;
+    height: 109px;
+    margin-bottom: 91px;
+    text-align: center;
+}
